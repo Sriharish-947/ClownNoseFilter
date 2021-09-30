@@ -1,0 +1,39 @@
+#realtimeFilterHeader
+{
+    height: 60px;
+    width: 250px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: xx-large;
+}
+
+#takeSnapshot
+{
+    height: 40px;
+    width: 150px;
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: medium;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    margin-top: 100px;
+    margin-right: 50px;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
